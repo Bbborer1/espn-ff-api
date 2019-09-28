@@ -1,0 +1,7 @@
+name: espn-ff-api
+channels:
+  - defaults
+dependencies:
+  - python=3.7.0
+  - pip:
+      - requests==2.22.0
