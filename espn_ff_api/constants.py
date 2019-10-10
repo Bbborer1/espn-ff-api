@@ -1,36 +1,11 @@
-# SETTINGS = 'settings'
-# ROSTERS = 'rosters'
-# SCORE_BOARDS = 'score_boards'
-# TOP_PERFORMERS = 'top_performers'
-# TEAMS = 'teams'
-# MODULAR = 'modular'
-# NAV = 'nav'
-# SCHEDULE = 'schedule'
-# MATCHUP = 'matchup'
-# MATCHUP_SCORE = 'matchup_score'
-# PLAYERS = 'players'
-# KONA_PLAYER_INFO = 'kona_player_info'
-# DRAFT_INFO = 'draft_info'
-# DRAFT_RECAP = 'draft_recap'
-#
-# PARAM_MAPPINGS = {SETTINGS: 'mSettings',
-#                   ROSTERS: 'mRoster',
-#                   SCORE_BOARDS: 'mScoreboard',
-#                   TOP_PERFORMERS: 'mTopPerformers',
-#                   TEAMS: 'mTeam',
-#                   MODULAR: 'modular',
-#                   NAV: 'mNav',
-#                   SCHEDULE: 'mSchedule',
-#                   MATCHUP: 'mMatchup',
-#                   MATCHUP_SCORE: 'mMatchupScore',
-#                   PLAYERS: 'mPlayers',
-#                   KONA_PLAYER_INFO: 'kona_player_info',
-#                   DRAFT_INFO: 'mDraftDetail',
-#                   DRAFT_RECAP: 'mDraftRecap'}
+
 
 LEAGUE_VIEWS = ['mSettings', 'mTeam']
+SCHEDULE_VIEWS = ['mSchedule', 'mMatchup', 'mMatchupScore', ]
 
-SCHEDULE_VIEWS = ['']
+WINNER_MAPPING = {'AWAY': 'away',
+               'HOME': 'home',
+               'UNDECIDED': None}
 
 
 POSITION_MAP = {
