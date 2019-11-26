@@ -2,6 +2,7 @@
 
 LEAGUE_VIEWS = ['mSettings', 'mTeam']
 SCHEDULE_VIEWS = ['mSchedule', 'mMatchup', 'mMatchupScore', ]
+PLAYER_VIEWS = ['kona_player_info']
 
 WINNER_MAPPING = {'AWAY': 'away',
                'HOME': 'home',
